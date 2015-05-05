@@ -1,0 +1,23 @@
+{
+  "name": "mongo-web-replica-client",
+  "version": "0.0.1",
+  "description": "Mongo Web Replica client",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^5.2.13",
+    "socket.io": "^1.3.4",
+    "socket.io-client": "^1.3.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.0.0",
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4",
+    "gulp-webpack": "^1.2.0",
+    "webpack": "^1.6.0"
+  }
+}
