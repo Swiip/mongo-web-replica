@@ -12,8 +12,6 @@ angular.module('mongoWebReplicaConsole', [angularAria, angularAnimate, angularMa
   .controller('MainController', MainController)
   .controller('NavbarController', NavbarController);
 
-MongoWebReplicaClient
-  .connect('http://127.0.0.1:8000/')
-  .then(() => {
-    MongoWebReplicaClient.listen('test.test');
-  });
+MongoWebReplicaClient.connect('http://127.0.0.1:8000/');
+
+MongoWebReplicaClient.listen('test.test');
